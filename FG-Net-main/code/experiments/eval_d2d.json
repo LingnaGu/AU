@@ -1,0 +1,15 @@
+{
+  "batch_size": 4,
+  "dataset": "DISFA",
+  "dim": 128,
+  "num_labels": 8,
+  "sigma": 20.0,
+  "image_path": "../data/",
+  "train_csv": "../data/DISFA/labels/2/reindexed_train.csv",
+  "test_csv": "../data/DISFA/labels/2/test_reindexed.csv",
+  "stylegan_checkpoint": "checkpoints/stylegan2-ffhq-config-f.pt",
+  "style_encoder_path": "checkpoints/encoder.pt",
+  "checkpoint_path": "checkpoints/disfa_face_alignment_fold2/model.pth",
+  "dropout": 0.1,
+  "seed": 42
+}

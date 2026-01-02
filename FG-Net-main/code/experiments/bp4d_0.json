@@ -1,0 +1,21 @@
+{
+  "exp_dir": "checkpoints/bp4d_face_alignment_fold0",
+  "batch_size": 4,
+  "dataset": "BP4D",
+  "dim": 128,
+  "num_labels": 12,
+  "num_epochs": 15,
+  "learning_rate": 5e-5,
+  "weight_decay": 5e-4,
+  "sigma": 20.0,
+  "image_path": "../data/",
+  "train_csv": "../data/BP4D/labels/0/bp4d_train_face_alignment.csv",
+  "test_csv": "../data/BP4D/labels/0/bp4d_test_face_alignment.csv",
+  "stylegan_checkpoint": "checkpoints/stylegan2-ffhq-config-f.pt",
+  "style_encoder_path": "checkpoints/encoder.pt",
+  "interpreter": "pyramid",
+  "interval": 2000,
+  "dropout": 0.1,
+  "c_rate": 0.00,
+  "seed": 42
+}

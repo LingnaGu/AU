@@ -1,0 +1,21 @@
+{
+  "exp_dir": "checkpoints/disfa_OpenFace_th5_fold2",
+  "batch_size": 4,
+  "dataset": "DISFA",
+  "dim": 128,
+  "num_labels": 8,
+  "num_epochs": 15,
+  "learning_rate": 5e-5,
+  "weight_decay": 5e-4,
+  "sigma": 20.0,
+  "image_path": "../data/",
+  "train_csv": "../data/DISFA/labels/2/reindexed_train_5.csv",
+  "test_csv": "../data/DISFA/labels/2/reindexed_test_5.csv",
+  "stylegan_checkpoint": "checkpoints/stylegan2-ffhq-config-f.pt",
+  "style_encoder_path": "checkpoints/encoder.pt",
+  "interpreter": "pyramid",
+  "interval": 2000,
+  "dropout": 0.1,
+  "c_rate": 0.0,
+  "seed": 42
+}
